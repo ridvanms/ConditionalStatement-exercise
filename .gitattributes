@@ -1,6 +1,4 @@
 *.js linguist-detectable=true
-# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
-*.js linguist-language=JavaScript
-
-# Replace any whitespace in the language name with hyphens:
-*.glyphs linguist-language=OpenStep-Property-List
+*.kicad_pcb linguist-detectable
+*.sch linguist-detectable
+tools/export_bom.py -linguist-detectable
